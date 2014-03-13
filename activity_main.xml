@@ -1,0 +1,757 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/black" >
+
+    <LinearLayout
+        android:id="@+id/LinearLayoutVertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:ignore="UselessParent" >
+
+        <LinearLayout
+        	android:id="@+id/LinearLayoutRow0"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="0dip"
+            android:orientation="horizontal" >
+
+            <ImageButton
+                android:id="@+id/imageButton0_00"
+                android:layout_width="0dip"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:clickable="true"
+                android:onClick="toggleButton"
+                android:contentDescription="@string/button0_00"
+                android:src="@drawable/ic_launcher"
+                tools:ignore="NestedWeights" />
+            
+            <ImageButton
+                android:id="@+id/imageButton0_01"
+                android:layout_width="0dip"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:clickable="true"
+                android:onClick="toggleButton"
+                android:contentDescription="@string/button0_01"
+                android:src="@drawable/ic_launcher"
+                tools:ignore="NestedWeights" />
+            
+            <ImageButton
+                android:id="@+id/imageButton0_02"
+                android:layout_width="0dip"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:clickable="true"
+                android:onClick="toggleButton"
+                android:contentDescription="@string/button0_02"
+                android:src="@drawable/ic_launcher"
+                tools:ignore="NestedWeights" />
+            
+            <ImageButton
+                android:id="@+id/imageButton0_03"
+                android:layout_width="0dip"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:clickable="true"
+                android:onClick="toggleButton"
+                android:contentDescription="@string/button0_03"
+                android:src="@drawable/ic_launcher"
+                tools:ignore="NestedWeights" />
+            
+            <ImageButton
+                android:id="@+id/imageButton0_04"
+                android:layout_width="0dip"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:clickable="true"
+                android:onClick="toggleButton"
+                android:contentDescription="@string/button0_04"
+                android:src="@drawable/ic_launcher"
+                tools:ignore="NestedWeights" />
+            
+            <ImageButton
+                android:id="@+id/imageButton0_05"
+                android:layout_width="0dip"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:clickable="true"
+                android:onClick="toggleButton"
+                android:contentDescription="@string/button0_05"
+                android:src="@drawable/ic_launcher"
+                tools:ignore="NestedWeights" />
+            
+            <ImageButton
+                android:id="@+id/imageButton0_06"
+                android:layout_width="0dip"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:clickable="true"
+                android:onClick="toggleButton"
+                android:contentDescription="@string/button0_06"
+                android:src="@drawable/ic_launcher"
+                tools:ignore="NestedWeights" />
+            
+            <ImageButton
+                android:id="@+id/imageButton0_07"
+                android:layout_width="0dip"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:clickable="true"
+                android:onClick="toggleButton"
+                android:contentDescription="@string/button0_07"
+                android:src="@drawable/ic_launcher"
+                tools:ignore="NestedWeights" />
+            
+            <ImageButton
+                android:id="@+id/imageButton0_08"
+                android:layout_width="0dip"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:clickable="true"
+                android:onClick="toggleButton"
+                android:contentDescription="@string/button0_08"
+                android:src="@drawable/ic_launcher"
+                tools:ignore="NestedWeights" />
+            
+            <ImageButton
+                android:id="@+id/imageButton0_09"
+                android:layout_width="0dip"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:clickable="true"
+                android:onClick="toggleButton"
+                android:contentDescription="@string/button0_09"
+                android:src="@drawable/ic_launcher"
+                tools:ignore="NestedWeights" />
+            
+            <ImageButton
+                android:id="@+id/imageButton0_10"
+                android:layout_width="0dip"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:clickable="true"
+                android:onClick="toggleButton"
+                android:contentDescription="@string/button0_10"
+                android:src="@drawable/ic_launcher"
+                tools:ignore="NestedWeights" />
+            
+            <ImageButton
+                android:id="@+id/imageButton0_11"
+                android:layout_width="0dip"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:clickable="true"
+                android:onClick="toggleButton"
+                android:contentDescription="@string/button0_11"
+                android:src="@drawable/ic_launcher"
+                tools:ignore="NestedWeights" />
+            
+            <ImageButton
+                android:id="@+id/imageButton0_12"
+                android:layout_width="0dip"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:clickable="true"
+                android:onClick="toggleButton"
+                android:contentDescription="@string/button0_12"
+                android:src="@drawable/ic_launcher"
+                tools:ignore="NestedWeights" />
+            
+            <ImageButton
+                android:id="@+id/imageButton0_13"
+                android:layout_width="0dip"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:clickable="true"
+                android:onClick="toggleButton"
+                android:contentDescription="@string/button0_13"
+                android:src="@drawable/ic_launcher"
+                tools:ignore="NestedWeights" />
+            
+            <ImageButton
+                android:id="@+id/imageButton0_14"
+                android:layout_width="0dip"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:clickable="true"
+                android:onClick="toggleButton"
+                android:contentDescription="@string/button0_14"
+                android:src="@drawable/ic_launcher"
+                tools:ignore="NestedWeights" />
+            
+            <ImageButton
+                android:id="@+id/imageButton0_15"
+                android:layout_width="0dip"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:clickable="true"
+                android:onClick="toggleButton"
+                android:contentDescription="@string/button0_15"
+                android:src="@drawable/ic_launcher"
+                tools:ignore="NestedWeights" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/LinearLayoutRow1"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="0dip"
+            android:orientation="horizontal" >
+            
+            <ImageButton
+                android:id="@+id/imageButton1_00"
+                android:layout_width="0dip"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:clickable="true"
+                android:onClick="toggleButton"
+                android:contentDescription="@string/button1_00"
+                android:src="@drawable/ic_launcher"
+                tools:ignore="NestedWeights" />
+            
+            <ImageButton
+                android:id="@+id/imageButton1_01"
+                android:layout_width="0dip"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:clickable="true"
+                android:onClick="toggleButton"
+                android:contentDescription="@string/button1_01"
+                android:src="@drawable/ic_launcher"
+                tools:ignore="NestedWeights" />
+            
+            <ImageButton
+                android:id="@+id/imageButton1_02"
+                android:layout_width="0dip"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:clickable="true"
+                android:onClick="toggleButton"
+                android:contentDescription="@string/button1_02"
+                android:src="@drawable/ic_launcher"
+                tools:ignore="NestedWeights" />
+            
+            <ImageButton
+                android:id="@+id/imageButton1_03"
+                android:layout_width="0dip"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:clickable="true"
+                android:onClick="toggleButton"
+                android:contentDescription="@string/button1_03"
+                android:src="@drawable/ic_launcher"
+                tools:ignore="NestedWeights" />
+            
+            <ImageButton
+                android:id="@+id/imageButton1_04"
+                android:layout_width="0dip"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:clickable="true"
+                android:onClick="toggleButton"
+                android:contentDescription="@string/button1_04"
+                android:src="@drawable/ic_launcher"
+                tools:ignore="NestedWeights" />
+            
+            <ImageButton
+                android:id="@+id/imageButton1_05"
+                android:layout_width="0dip"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:clickable="true"
+                android:onClick="toggleButton"
+                android:contentDescription="@string/button1_05"
+                android:src="@drawable/ic_launcher"
+                tools:ignore="NestedWeights" />
+            
+            <ImageButton
+                android:id="@+id/imageButton1_06"
+                android:layout_width="0dip"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:clickable="true"
+                android:onClick="toggleButton"
+                android:contentDescription="@string/button1_06"
+                android:src="@drawable/ic_launcher"
+                tools:ignore="NestedWeights" />
+            
+            <ImageButton
+                android:id="@+id/imageButton1_07"
+                android:layout_width="0dip"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:clickable="true"
+                android:onClick="toggleButton"
+                android:contentDescription="@string/button1_07"
+                android:src="@drawable/ic_launcher"
+                tools:ignore="NestedWeights" />
+            
+            <ImageButton
+                android:id="@+id/imageButton1_08"
+                android:layout_width="0dip"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:clickable="true"
+                android:onClick="toggleButton"
+                android:contentDescription="@string/button1_08"
+                android:src="@drawable/ic_launcher"
+                tools:ignore="NestedWeights" />
+            
+            <ImageButton
+                android:id="@+id/imageButton1_09"
+                android:layout_width="0dip"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:clickable="true"
+                android:onClick="toggleButton"
+                android:contentDescription="@string/button1_09"
+                android:src="@drawable/ic_launcher"
+                tools:ignore="NestedWeights" />
+            
+            <ImageButton
+                android:id="@+id/imageButton1_10"
+                android:layout_width="0dip"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:clickable="true"
+                android:onClick="toggleButton"
+                android:contentDescription="@string/button1_10"
+                android:src="@drawable/ic_launcher"
+                tools:ignore="NestedWeights" />
+            
+            <ImageButton
+                android:id="@+id/imageButton1_11"
+                android:layout_width="0dip"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:clickable="true"
+                android:onClick="toggleButton"
+                android:contentDescription="@string/button1_11"
+                android:src="@drawable/ic_launcher"
+                tools:ignore="NestedWeights" />
+            
+            <ImageButton
+                android:id="@+id/imageButton1_12"
+                android:layout_width="0dip"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:clickable="true"
+                android:onClick="toggleButton"
+                android:contentDescription="@string/button1_12"
+                android:src="@drawable/ic_launcher"
+                tools:ignore="NestedWeights" />
+            
+            <ImageButton
+                android:id="@+id/imageButton1_13"
+                android:layout_width="0dip"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:clickable="true"
+                android:onClick="toggleButton"
+                android:contentDescription="@string/button1_13"
+                android:src="@drawable/ic_launcher"
+                tools:ignore="NestedWeights" />
+            
+            <ImageButton
+                android:id="@+id/imageButton1_14"
+                android:layout_width="0dip"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:clickable="true"
+                android:onClick="toggleButton"
+                android:contentDescription="@string/button1_14"
+                android:src="@drawable/ic_launcher"
+                tools:ignore="NestedWeights" />
+            
+            <ImageButton
+                android:id="@+id/imageButton1_15"
+                android:layout_width="0dip"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:clickable="true"
+                android:onClick="toggleButton"
+                android:contentDescription="@string/button1_15"
+                android:src="@drawable/ic_launcher"
+                tools:ignore="NestedWeights" />
+            
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/LinearLayoutRow2"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="0dip"
+            android:orientation="horizontal" >
+            
+            <ImageButton
+                android:id="@+id/imageButton2_00"
+                android:layout_width="0dip"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:clickable="true"
+                android:onClick="toggleButton"
+                android:contentDescription="@string/button2_00"
+                android:src="@drawable/ic_launcher"
+                tools:ignore="NestedWeights" />
+            
+            <ImageButton
+                android:id="@+id/imageButton2_01"
+                android:layout_width="0dip"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:clickable="true"
+                android:onClick="toggleButton"
+                android:contentDescription="@string/button2_01"
+                android:src="@drawable/ic_launcher"
+                tools:ignore="NestedWeights" />
+            
+            <ImageButton
+                android:id="@+id/imageButton2_02"
+                android:layout_width="0dip"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:clickable="true"
+                android:onClick="toggleButton"
+                android:contentDescription="@string/button2_02"
+                android:src="@drawable/ic_launcher"
+                tools:ignore="NestedWeights" />
+            
+            <ImageButton
+                android:id="@+id/imageButton2_03"
+                android:layout_width="0dip"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:clickable="true"
+                android:onClick="toggleButton"
+                android:contentDescription="@string/button2_03"
+                android:src="@drawable/ic_launcher"
+                tools:ignore="NestedWeights" />
+            
+            <ImageButton
+                android:id="@+id/imageButton2_04"
+                android:layout_width="0dip"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:clickable="true"
+                android:onClick="toggleButton"
+                android:contentDescription="@string/button2_04"
+                android:src="@drawable/ic_launcher"
+                tools:ignore="NestedWeights" />
+            
+            <ImageButton
+                android:id="@+id/imageButton2_05"
+                android:layout_width="0dip"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:clickable="true"
+                android:onClick="toggleButton"
+                android:contentDescription="@string/button2_05"
+                android:src="@drawable/ic_launcher"
+                tools:ignore="NestedWeights" />
+            
+            <ImageButton
+                android:id="@+id/imageButton2_06"
+                android:layout_width="0dip"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:clickable="true"
+                android:onClick="toggleButton"
+                android:contentDescription="@string/button2_06"
+                android:src="@drawable/ic_launcher"
+                tools:ignore="NestedWeights" />
+            
+            <ImageButton
+                android:id="@+id/imageButton2_07"
+                android:layout_width="0dip"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:clickable="true"
+                android:onClick="toggleButton"
+                android:contentDescription="@string/button2_07"
+                android:src="@drawable/ic_launcher"
+                tools:ignore="NestedWeights" />
+            
+            <ImageButton
+                android:id="@+id/imageButton2_08"
+                android:layout_width="0dip"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:clickable="true"
+                android:onClick="toggleButton"
+                android:contentDescription="@string/button2_08"
+                android:src="@drawable/ic_launcher"
+                tools:ignore="NestedWeights" />
+            
+            <ImageButton
+                android:id="@+id/imageButton2_09"
+                android:layout_width="0dip"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:clickable="true"
+                android:onClick="toggleButton"
+                android:contentDescription="@string/button2_09"
+                android:src="@drawable/ic_launcher"
+                tools:ignore="NestedWeights" />
+            
+            <ImageButton
+                android:id="@+id/imageButton2_10"
+                android:layout_width="0dip"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:clickable="true"
+                android:onClick="toggleButton"
+                android:contentDescription="@string/button2_10"
+                android:src="@drawable/ic_launcher"
+                tools:ignore="NestedWeights" />
+            
+            <ImageButton
+                android:id="@+id/imageButton2_11"
+                android:layout_width="0dip"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:clickable="true"
+                android:onClick="toggleButton"
+                android:contentDescription="@string/button2_11"
+                android:src="@drawable/ic_launcher"
+                tools:ignore="NestedWeights" />
+            
+            <ImageButton
+                android:id="@+id/imageButton2_12"
+                android:layout_width="0dip"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:clickable="true"
+                android:onClick="toggleButton"
+                android:contentDescription="@string/button2_12"
+                android:src="@drawable/ic_launcher"
+                tools:ignore="NestedWeights" />
+            
+            <ImageButton
+                android:id="@+id/imageButton2_13"
+                android:layout_width="0dip"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:clickable="true"
+                android:onClick="toggleButton"
+                android:contentDescription="@string/button2_13"
+                android:src="@drawable/ic_launcher"
+                tools:ignore="NestedWeights" />
+            
+            <ImageButton
+                android:id="@+id/imageButton2_14"
+                android:layout_width="0dip"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:clickable="true"
+                android:onClick="toggleButton"
+                android:contentDescription="@string/button2_14"
+                android:src="@drawable/ic_launcher"
+                tools:ignore="NestedWeights" />
+            
+            <ImageButton
+                android:id="@+id/imageButton2_15"
+                android:layout_width="0dip"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:clickable="true"
+                android:onClick="toggleButton"
+                android:contentDescription="@string/button2_15"
+                android:src="@drawable/ic_launcher"
+                tools:ignore="NestedWeights" />
+            
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/LinearLayoutRow3"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="0dip"
+            android:orientation="horizontal" >
+            
+            <ImageButton
+                android:id="@+id/imageButton3_00"
+                android:layout_width="0dip"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:clickable="true"
+                android:onClick="toggleButton"
+                android:contentDescription="@string/button3_00"
+                android:src="@drawable/ic_launcher"
+                tools:ignore="NestedWeights" />
+            
+            <ImageButton
+                android:id="@+id/imageButton3_01"
+                android:layout_width="0dip"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:clickable="true"
+                android:onClick="toggleButton"
+                android:contentDescription="@string/button3_01"
+                android:src="@drawable/ic_launcher"
+                tools:ignore="NestedWeights" />
+            
+            <ImageButton
+                android:id="@+id/imageButton3_02"
+                android:layout_width="0dip"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:clickable="true"
+                android:onClick="toggleButton"
+                android:contentDescription="@string/button3_02"
+                android:src="@drawable/ic_launcher"
+                tools:ignore="NestedWeights" />
+            
+            <ImageButton
+                android:id="@+id/imageButton3_03"
+                android:layout_width="0dip"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:clickable="true"
+                android:onClick="toggleButton"
+                android:contentDescription="@string/button3_03"
+                android:src="@drawable/ic_launcher"
+                tools:ignore="NestedWeights" />
+            
+            <ImageButton
+                android:id="@+id/imageButton3_04"
+                android:layout_width="0dip"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:clickable="true"
+                android:onClick="toggleButton"
+                android:contentDescription="@string/button3_04"
+                android:src="@drawable/ic_launcher"
+                tools:ignore="NestedWeights" />
+            
+            <ImageButton
+                android:id="@+id/imageButton3_05"
+                android:layout_width="0dip"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:clickable="true"
+                android:onClick="toggleButton"
+                android:contentDescription="@string/button3_05"
+                android:src="@drawable/ic_launcher"
+                tools:ignore="NestedWeights" />
+            
+            <ImageButton
+                android:id="@+id/imageButton3_06"
+                android:layout_width="0dip"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:clickable="true"
+                android:onClick="toggleButton"
+                android:contentDescription="@string/button3_06"
+                android:src="@drawable/ic_launcher"
+                tools:ignore="NestedWeights" />
+            
+            <ImageButton
+                android:id="@+id/imageButton3_07"
+                android:layout_width="0dip"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:clickable="true"
+                android:onClick="toggleButton"
+                android:contentDescription="@string/button3_07"
+                android:src="@drawable/ic_launcher"
+                tools:ignore="NestedWeights" />
+            
+            <ImageButton
+                android:id="@+id/imageButton3_08"
+                android:layout_width="0dip"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:clickable="true"
+                android:onClick="toggleButton"
+                android:contentDescription="@string/button3_08"
+                android:src="@drawable/ic_launcher"
+                tools:ignore="NestedWeights" />
+            
+            <ImageButton
+                android:id="@+id/imageButton3_09"
+                android:layout_width="0dip"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:clickable="true"
+                android:onClick="toggleButton"
+                android:contentDescription="@string/button3_09"
+                android:src="@drawable/ic_launcher"
+                tools:ignore="NestedWeights" />
+            
+            <ImageButton
+                android:id="@+id/imageButton3_10"
+                android:layout_width="0dip"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:clickable="true"
+                android:onClick="toggleButton"
+                android:contentDescription="@string/button3_10"
+                android:src="@drawable/ic_launcher"
+                tools:ignore="NestedWeights" />
+            
+            <ImageButton
+                android:id="@+id/imageButton3_11"
+                android:layout_width="0dip"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:clickable="true"
+                android:onClick="toggleButton"
+                android:contentDescription="@string/button3_11"
+                android:src="@drawable/ic_launcher"
+                tools:ignore="NestedWeights" />
+            
+            <ImageButton
+                android:id="@+id/imageButton3_12"
+                android:layout_width="0dip"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:clickable="true"
+                android:onClick="toggleButton"
+                android:contentDescription="@string/button3_12"
+                android:src="@drawable/ic_launcher"
+                tools:ignore="NestedWeights" />
+            
+            <ImageButton
+                android:id="@+id/imageButton3_13"
+                android:layout_width="0dip"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:clickable="true"
+                android:onClick="toggleButton"
+                android:contentDescription="@string/button3_13"
+                android:src="@drawable/ic_launcher"
+                tools:ignore="NestedWeights" />
+            
+            <ImageButton
+                android:id="@+id/imageButton3_14"
+                android:layout_width="0dip"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:clickable="true"
+                android:onClick="toggleButton"
+                android:contentDescription="@string/button3_14"
+                android:src="@drawable/ic_launcher"
+                tools:ignore="NestedWeights" />
+            
+            <ImageButton
+                android:id="@+id/imageButton3_15"
+                android:layout_width="0dip"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:clickable="true"
+                android:onClick="toggleButton"
+                android:contentDescription="@string/button3_15"
+                android:src="@drawable/ic_launcher"
+                tools:ignore="NestedWeights" />
+            
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
